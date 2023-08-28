@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             agent {
                 docker {
-                    image 'python:3.8-alpine3.18'
+                    image 'python:3.11-alpine3.18'
                 }
             }
             steps {
